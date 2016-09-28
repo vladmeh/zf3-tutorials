@@ -27,7 +27,8 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "ApplicationTest\\": "module/Application/test/"
+            "ApplicationTest\\": "module/Application/test/",
+            "AlbumTest\\": "module/Album/test/"
         }
     },
     "extra": [],
@@ -42,5 +43,8 @@
         ],
         "serve": "php -S 0.0.0.0:8080 -t public/ public/index.php",
         "test": "phpunit"
+    },
+    "require-dev": {
+        "zendframework/zend-test": "^3.0"
     }
 }
