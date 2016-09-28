@@ -37,13 +37,20 @@
                     </a>
                 </div>
                 <div class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav">
-                        <li class="active"><a href="<?= $this->url('home') ?>">Home</a></li>
-                    </ul>
+                    <?= $this->navigation('navigation')
+                        ->menu()
+                        ->setMinDepth(0)
+                        ->setMaxDepth(0)
+                        ->setUlClass('nav navbar-nav')
+                    ?>
                 </div>
             </div>
         </nav>
         <div class="container">
+            <?= $this->navigation('navigation')
+                ->breadcrumbs()
+                ->setMinDepth(0)
+                ->setPartial('partial/breadcrumb') ?>
             <?= $this->content ?>
             <hr>
             <footer>
