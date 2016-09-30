@@ -6,3 +6,7 @@ data/cache/*
 phpunit.xml
 ubuntu-xenial-16.04-cloudimg-console.log
 /.idea/
+/CONDUCT.md
+/CONTRIBUTING.md
+/LICENSE.md
+/TODO.md
