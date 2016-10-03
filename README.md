@@ -24,4 +24,9 @@ https://docs.zendframework.com/tutorials/
     * [Testing model entities. Testing model tables.](https://github.com/vladmeh/zf3-tutorials/commit/1a80bb115087249dcca7e92171d55e388416176a)
 * [Using zend-navigation in Album Module.](https://github.com/vladmeh/zf3-tutorials/commit/8e94402175cdc1fef56811b4b8adeba661518b27)
 * [Using zend-paginator in Album Module.](https://github.com/vladmeh/zf3-tutorials/commit/b5982e7006221cf3e6145e100633cd2537ec5fa9)
+* In-Depth tutorial
+    * [Introducing the Blog Module.](https://github.com/vladmeh/zf3-tutorials/commit/c760fafc4d55404cc75c65762589904be9901949)
+    * [Models and the ServiceManager.](https://github.com/vladmeh/zf3-tutorials/commit/14129dd94c8ff3124efc6ebb43dc309a3bc64604)
+    * [Preparing for Different Databases.](https://github.com/vladmeh/zf3-tutorials/commit/03d770928215b2403cf761b99543feb2b08bce34)
+    * [SQL Abstraction and Object Hydration](https://github.com/vladmeh/zf3-tutorials/commit/519bba35403c6b17b501b239391bb6b96a08b345)
 
