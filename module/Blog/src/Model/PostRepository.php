@@ -9,7 +9,6 @@
 
 namespace Blog\Model;
 
-
 use DomainException;
 
 class PostRepository implements PostRepositoryInterface

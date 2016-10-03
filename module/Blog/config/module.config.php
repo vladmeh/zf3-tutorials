@@ -7,10 +7,11 @@ use Zend\ServiceManager\Factory\InvokableFactory;
 return [
     'service_manager' => [
         'aliases' => [
-            Model\PostRepositoryInterface::class => Model\PostRepository::class,
+            Model\PostRepositoryInterface::class => Model\ZendDbSqlRepository::class,
         ],
         'factories' => [
             Model\PostRepository::class => InvokableFactory::class,
+            Model\ZendDbSqlRepository::class => Factory\ZendDbSqlRepositoryFactory::class,
         ],
     ],
     'controllers' => [
