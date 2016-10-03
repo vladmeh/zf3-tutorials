@@ -1,0 +1,9 @@
+<h1>Post Details</h1>
+
+<dl>
+    <dt>Post Title</dt>
+    <dd><?= $this->escapeHtml($this->post->getTitle()) ?></dd>
+
+    <dt>Post Text</dt>
+    <dd><?= $this->escapeHtml($this->post->getText()) ?></dd>
+</dl>
