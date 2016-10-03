@@ -29,4 +29,5 @@ https://docs.zendframework.com/tutorials/
     * [Models and the ServiceManager.](https://github.com/vladmeh/zf3-tutorials/commit/14129dd94c8ff3124efc6ebb43dc309a3bc64604)
     * [Preparing for Different Databases.](https://github.com/vladmeh/zf3-tutorials/commit/03d770928215b2403cf761b99543feb2b08bce34)
     * [SQL Abstraction and Object Hydration](https://github.com/vladmeh/zf3-tutorials/commit/519bba35403c6b17b501b239391bb6b96a08b345)
+    * [Understanding the Router](https://github.com/vladmeh/zf3-tutorials/commit/bd17661402ebd502b42c981e50865e57a45d5aa3)
 
